@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -196,20 +196,20 @@
 <text x="1.524" y="0.127" size="1.27" layer="22" rot="MR0">C</text>
 </package>
 <package name="3PDT">
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.1524" layer="21"/>
-<pad name="A1" x="-5.08" y="5.08" drill="2.8" shape="square" rot="R180"/>
-<pad name="A2" x="-5.08" y="0" drill="2.8" rot="R180"/>
-<pad name="A3" x="-5.08" y="-5.08" drill="2.8" rot="R180"/>
-<pad name="B1" x="0" y="5.08" drill="2.8" rot="R180"/>
-<pad name="B2" x="0" y="0" drill="2.8" rot="R180"/>
-<pad name="B3" x="0" y="-5.08" drill="2.8" rot="R180"/>
-<pad name="C1" x="5.08" y="5.08" drill="2.8" rot="R180"/>
-<pad name="C2" x="5.08" y="0" drill="2.8" rot="R180"/>
-<pad name="C3" x="5.08" y="-5.08" drill="2.8" rot="R180"/>
-<text x="0" y="8.382" size="1.27" layer="21" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-9.02" y1="7.92" x2="9.02" y2="7.92" width="0.1524" layer="21"/>
+<wire x1="9.02" y1="7.92" x2="9.02" y2="-8.02" width="0.1524" layer="21"/>
+<wire x1="9.02" y1="-8.02" x2="-9.02" y2="-8.02" width="0.1524" layer="21"/>
+<wire x1="-9.02" y1="-8.02" x2="-9.02" y2="7.92" width="0.1524" layer="21"/>
+<pad name="A1" x="-5.08" y="5.08" drill="2" shape="square" rot="R180"/>
+<pad name="A2" x="-5.08" y="0" drill="2" rot="R180"/>
+<pad name="A3" x="-5.08" y="-5.08" drill="2" rot="R180"/>
+<pad name="B1" x="0" y="5.08" drill="2" rot="R180"/>
+<pad name="B2" x="0" y="0" drill="2" rot="R180"/>
+<pad name="B3" x="0" y="-5.08" drill="2" rot="R180"/>
+<pad name="C1" x="5.08" y="5.08" drill="2" rot="R180"/>
+<pad name="C2" x="5.08" y="0" drill="2" rot="R180"/>
+<pad name="C3" x="5.08" y="-5.08" drill="2" rot="R180"/>
+<text x="0" y="8.882" size="1.27" layer="21" ratio="12" align="center">&gt;NAME</text>
 </package>
 <package name="3PDT2">
 <circle x="0" y="0" radius="0.635" width="0.127" layer="22"/>
@@ -574,17 +574,17 @@
 <text x="-5.08" y="0" size="1.27" layer="21" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="DPDT">
-<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="3.81" width="0.1524" layer="21"/>
-<pad name="A1" x="-1.27" y="2.54" drill="1.2" diameter="2.032" shape="square" rot="R180"/>
-<pad name="A2" x="-1.27" y="0" drill="1.2" diameter="2.032" rot="R180"/>
-<pad name="A3" x="-1.27" y="-2.54" drill="1.2" diameter="2.032" rot="R180"/>
-<pad name="B1" x="1.27" y="2.54" drill="1.2" diameter="2.032" rot="R180"/>
-<pad name="B2" x="1.27" y="0" drill="1.2" diameter="2.032" rot="R180"/>
-<pad name="B3" x="1.27" y="-2.54" drill="1.2" diameter="2.032" rot="R180"/>
-<text x="-3.175" y="0" size="1.016" layer="21" ratio="12" rot="R90" align="center">&gt;NAME</text>
+<pad name="A1" x="-2.54" y="5.08" drill="2" diameter="2.69999375" shape="square" rot="R180"/>
+<pad name="A2" x="-2.54" y="0" drill="2" diameter="2.69999375" rot="R180"/>
+<pad name="A3" x="-2.54" y="-5.08" drill="2" diameter="2.69999375" rot="R180"/>
+<pad name="B1" x="2.54" y="5.08" drill="2" diameter="2.69999375" rot="R180"/>
+<pad name="B2" x="2.54" y="0" drill="2" diameter="2.69999375" rot="R180"/>
+<pad name="B3" x="2.54" y="-5.08" drill="2" diameter="2.69999375" rot="R180"/>
+<text x="-6.985" y="-3.81" size="1.016" layer="21" ratio="12" rot="R90" align="center">&gt;NAME</text>
+<wire x1="-6.2555" y1="6.54" x2="-6.2555" y2="-6.3965" width="0.127" layer="21"/>
+<wire x1="-6.2555" y1="-6.3965" x2="6.2445" y2="-6.3965" width="0.127" layer="21"/>
+<wire x1="6.2445" y1="-6.3965" x2="6.2445" y2="6.54" width="0.127" layer="21"/>
+<wire x1="6.2445" y1="6.54" x2="-6.2555" y2="6.54" width="0.127" layer="21"/>
 </package>
 <package name="DPDT2_PCB">
 <circle x="0" y="0" radius="0.635" width="0.127" layer="22"/>
