@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -200,15 +200,15 @@
 <wire x1="9.02" y1="7.92" x2="9.02" y2="-8.02" width="0.1524" layer="21"/>
 <wire x1="9.02" y1="-8.02" x2="-9.02" y2="-8.02" width="0.1524" layer="21"/>
 <wire x1="-9.02" y1="-8.02" x2="-9.02" y2="7.92" width="0.1524" layer="21"/>
-<pad name="A1" x="-5.08" y="5.08" drill="2" shape="square" rot="R180"/>
-<pad name="A2" x="-5.08" y="0" drill="2" rot="R180"/>
-<pad name="A3" x="-5.08" y="-5.08" drill="2" rot="R180"/>
-<pad name="B1" x="0" y="5.08" drill="2" rot="R180"/>
-<pad name="B2" x="0" y="0" drill="2" rot="R180"/>
-<pad name="B3" x="0" y="-5.08" drill="2" rot="R180"/>
-<pad name="C1" x="5.08" y="5.08" drill="2" rot="R180"/>
-<pad name="C2" x="5.08" y="0" drill="2" rot="R180"/>
-<pad name="C3" x="5.08" y="-5.08" drill="2" rot="R180"/>
+<pad name="A1" x="-5.08" y="4.8895" drill="2.2" diameter="2.89999375" shape="square" rot="R180"/>
+<pad name="A2" x="-5.08" y="0" drill="2.2" diameter="2.89999375" rot="R180"/>
+<pad name="A3" x="-5.08" y="-4.699" drill="2.2" diameter="2.89999375" rot="R180"/>
+<pad name="B1" x="0" y="4.8895" drill="2.2" diameter="2.89999375" rot="R180"/>
+<pad name="B2" x="0" y="0" drill="2.2" diameter="2.89999375" rot="R180"/>
+<pad name="B3" x="0" y="-4.699" drill="2.2" diameter="2.89999375" rot="R180"/>
+<pad name="C1" x="5.08" y="4.8895" drill="2.2" diameter="2.89999375" rot="R180"/>
+<pad name="C2" x="5.08" y="0" drill="2.2" diameter="2.89999375" rot="R180"/>
+<pad name="C3" x="5.08" y="-4.699" drill="2.2" diameter="2.89999375" rot="R180"/>
 <text x="0" y="8.882" size="1.27" layer="21" ratio="12" align="center">&gt;NAME</text>
 </package>
 <package name="3PDT2">
@@ -679,37 +679,19 @@
 <package name="M9040P">
 <description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
 Marquardt</description>
-<wire x1="6.985" y1="1.651" x2="6.985" y2="-1.651" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-1.651" x2="6.35" y2="-1.651" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="-1.651" x2="6.35" y2="-2.286" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="2.286" x2="6.35" y2="-2.286" width="0.1524" layer="21"/>
 <wire x1="6.35" y1="-2.286" x2="-6.35" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-2.286" x2="-6.35" y2="-1.651" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-1.651" x2="-6.985" y2="-1.651" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="-1.651" x2="-6.985" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.651" x2="-6.35" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="1.651" x2="-6.35" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-2.286" x2="-6.35" y2="2.286" width="0.1524" layer="21"/>
 <wire x1="-6.35" y1="2.286" x2="6.35" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="2.286" x2="6.35" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="1.651" x2="6.985" y2="1.651" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="0" x2="-0.635" y2="0" width="0.127" layer="22"/>
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="22"/>
-<wire x1="6.35" y1="1.778" x2="6.35" y2="2.286" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="-2.2606" x2="6.35" y2="2.286" width="0.1524" layer="22"/>
 <wire x1="6.35" y1="2.286" x2="-6.35" y2="2.286" width="0.1524" layer="22"/>
-<wire x1="-6.35" y1="2.286" x2="-6.35" y2="1.778" width="0.1524" layer="22"/>
-<wire x1="-6.35" y1="1.778" x2="-6.35" y2="1.651" width="0.1524" layer="22"/>
-<wire x1="-6.35" y1="1.651" x2="-6.985" y2="1.651" width="0.1524" layer="22"/>
-<wire x1="-6.985" y1="1.651" x2="-6.985" y2="-1.651" width="0.1524" layer="22"/>
-<wire x1="-6.985" y1="-1.651" x2="-6.35" y2="-1.651" width="0.1524" layer="22"/>
-<wire x1="-6.35" y1="-1.651" x2="-6.35" y2="-2.286" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="2.286" x2="-6.35" y2="-2.27965" width="0.1524" layer="22"/>
 <wire x1="-6.35" y1="-2.286" x2="6.35" y2="-2.286" width="0.1524" layer="22"/>
-<wire x1="6.35" y1="-2.286" x2="6.35" y2="-1.651" width="0.1524" layer="22"/>
-<wire x1="6.35" y1="-1.651" x2="6.985" y2="-1.651" width="0.1524" layer="22"/>
-<wire x1="6.985" y1="-1.651" x2="6.985" y2="1.651" width="0.1524" layer="22"/>
-<wire x1="6.985" y1="1.651" x2="6.35" y2="1.651" width="0.1524" layer="22"/>
-<wire x1="6.35" y1="1.651" x2="6.35" y2="1.778" width="0.1524" layer="22"/>
-<pad name="1" x="4.699" y="0" drill="2.4" shape="square" rot="R270"/>
-<pad name="2" x="0" y="0" drill="2.4" rot="R270"/>
-<pad name="3" x="-4.699" y="0" drill="2.4" rot="R270"/>
+<pad name="1" x="4.6355" y="0" drill="2.2" diameter="2.89999375" shape="square" rot="R270"/>
+<pad name="2" x="0" y="0" drill="2.2" diameter="2.89999375" rot="R270"/>
+<pad name="3" x="-4.6101" y="0" drill="2.2" diameter="2.89999375" rot="R270"/>
 <text x="0" y="3.048" size="1.27" layer="25" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="3.048" size="1.27" layer="26" ratio="10" rot="MR0" align="center">&gt;NAME</text>
 </package>
