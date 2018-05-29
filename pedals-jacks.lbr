@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1165,34 +1165,34 @@ Breadboard-friendly pins.
 <text x="1.905" y="-2.54" size="1.778" layer="97" rot="R180">-</text>
 </symbol>
 <symbol name="DC_KOBICONN">
-<circle x="7.62" y="-3.81" radius="1.27" width="0.254" layer="94"/>
+<circle x="7.62" y="-2.54" radius="1.27" width="0.254" layer="94"/>
 <circle x="7.62" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="7.62" y="3.81" radius="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="6.35" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="3.81" x2="6.35" y2="3.81" width="0.254" layer="94"/>
+<circle x="7.62" y="2.54" radius="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="3.175" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
 <wire x1="8.89" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="8.89" y1="-3.81" x2="10.16" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="8.89" y1="3.81" x2="10.16" y2="3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="0.635" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="-0.635" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.905" y1="3.81" x2="1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.905" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-3.81" y2="3.81" width="0.254" layer="94" curve="89.990978"/>
-<wire x1="-3.81" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="89.990978"/>
-<wire x1="-2.54" y1="2.54" x2="1.905" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.905" y1="3.81" x2="1.905" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-3.81" x2="-3.175" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="-2.54" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.175" y1="2.54" x2="3.175" y2="3.81" width="0.254" layer="94"/>
+<wire x1="3.175" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="89.990978"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="89.990978"/>
+<wire x1="-1.27" y1="1.27" x2="3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.175" y1="2.54" x2="3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
 <pin name="R" x="10.16" y="0" visible="off" length="point" rot="R180"/>
-<pin name="S" x="10.16" y="-3.81" visible="off" length="point" rot="R180"/>
-<pin name="T" x="10.16" y="3.81" visible="off" length="point" rot="R180"/>
-<text x="6.985" y="-3.175" size="1.016" layer="97" rot="MR180">S</text>
+<pin name="S" x="10.16" y="-2.54" visible="off" length="point" rot="R180"/>
+<pin name="T" x="10.16" y="2.54" visible="off" length="point" rot="R180"/>
+<text x="6.985" y="-1.905" size="1.016" layer="97" rot="MR180">S</text>
 <text x="6.985" y="0.635" size="1.016" layer="97" rot="MR180">R</text>
-<text x="6.985" y="4.445" size="1.016" layer="97" rot="MR180">T</text>
-<text x="3.556" y="6.35" size="1.778" layer="97" rot="MR180" align="center">&gt;NAME</text>
+<text x="6.985" y="3.175" size="1.016" layer="97" rot="MR180">T</text>
+<text x="3.556" y="5.08" size="1.778" layer="95" rot="MR180" align="center">&gt;NAME</text>
 </symbol>
 <symbol name="DC_MONO">
 <wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
@@ -1229,6 +1229,7 @@ Breadboard-friendly pins.
 <text x="-3.302" y="3.937" size="1.778" layer="95" rot="MR180" align="center">&gt;NAME</text>
 <text x="2.54" y="3.175" size="1.016" layer="97">T</text>
 <text x="2.54" y="-1.905" size="1.016" layer="97">S</text>
+<text x="-3.302" y="-3.683" size="1.778" layer="96" rot="MR180" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="MONOJACKSW">
 <wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
@@ -1274,6 +1275,7 @@ Breadboard-friendly pins.
 <text x="10.16" y="5.715" size="1.016" layer="97">S</text>
 <text x="10.16" y="3.175" size="1.016" layer="97">R</text>
 <text x="10.16" y="0.635" size="1.016" layer="97">T</text>
+<text x="4.191" y="-1.397" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="POWERJACK">
 <wire x1="-10.16" y1="2.54" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
@@ -1288,7 +1290,7 @@ Breadboard-friendly pins.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BATTERY">
+<deviceset name="BATTERY" prefix="1">
 <gates>
 <gate name="G$1" symbol="BATTERY" x="0" y="0"/>
 </gates>
