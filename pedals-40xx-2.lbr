@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3256,7 +3257,7 @@ Source: www.fairchildsemi.com CD4010.pdf  © 2000 Fairchild Semiconductor Corpor
 <gates>
 <gate name="A" symbol="4013" x="20.32" y="0" swaplevel="1"/>
 <gate name="B" symbol="4013" x="20.32" y="-25.4" swaplevel="1"/>
-<gate name="_PWR" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
+<gate name="_PWR" symbol="PWRN" x="-5.08" y="0" addlevel="always"/>
 </gates>
 <devices>
 <device name="N" package="DIL14">
@@ -4608,7 +4609,7 @@ Source: www.fairchildsemi.com CD4010.pdf  © 2000 Fairchild Semiconductor Corpor
 <description>Micropower &lt;b&gt;PLL&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="4046" x="22.86" y="0"/>
-<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="always"/>
 </gates>
 <devices>
 <device name="N" package="DIL16">
@@ -5743,7 +5744,7 @@ Source: www.fairchildsemi.com CD4010.pdf  © 2000 Fairchild Semiconductor Corpor
 <gate name="B" symbol="4066" x="12.7" y="-10.16" swaplevel="1"/>
 <gate name="C" symbol="4066" x="38.1" y="7.62" swaplevel="1"/>
 <gate name="D" symbol="4066" x="38.1" y="-10.16" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="always"/>
 </gates>
 <devices>
 <device name="N" package="DIL14">
@@ -5939,7 +5940,7 @@ Source: www.fairchildsemi.com CD4010.pdf  © 2000 Fairchild Semiconductor Corpor
 <gate name="B" symbol="4001" x="20.32" y="-15.24" swaplevel="1"/>
 <gate name="C" symbol="4001" x="43.18" y="0" swaplevel="1"/>
 <gate name="D" symbol="4001" x="43.18" y="-15.24" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="0" y="-5.08" addlevel="request"/>
+<gate name="P" symbol="PWRN" x="0" y="-5.08" addlevel="always"/>
 </gates>
 <devices>
 <device name="N" package="DIL14">
